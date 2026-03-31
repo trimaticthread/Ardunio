@@ -24,7 +24,9 @@ Each folder contains sketches for a specific hardware module or topic.
 | `water_sensor` | Reads water level sensor and drives threshold LEDs |
 | `fourmultfourkeypad` | 4×4 keypad projects: LCD display, password lock, servo door — **Week 5** |
 | `remote_Control` | IR remote control: password lock with servo + LCD — **Week 5** (to be updated by Efe) |
-| `LoRaCon` | LoRa E32 wireless transmitter sending data packets every 5 s — **Week 7** |
+| `LoRaCon` | LoRa E32 basic transmitter (fixed packet every 5 s) — **Week 7** |
+| `LoRaCon/LoRa_UVSensor` | LoRa + UV sensor: transmits raw analog UV reading every 10 s — **Week 7** |
+| `LoRaCon/LoRa_MHMQGasSensor` | LoRa + MQ gas sensor: transmits raw value + mapped concentration every 10 s — **Week 7** |
 
 ## Quick Start
 1. Install Arduino IDE.
